@@ -13,7 +13,7 @@ body {
 .header img {
   width: 100%;
 }
-.header .header__lnk {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -26,12 +26,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task__inp {
+.task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task__lbl {
+.task__label {
     width: 56%;
     display: inline-block;
     flex-grow: 1
@@ -126,15 +126,15 @@ li > label {
 li >  input[type="text"] {
   width: 226px
 }
-li > button.delete__btn:hover {
+li > button.delete__button:hover {
   color: #cf2323;
 }
-button.delete__btn img {
+button.delete__button img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete__btn img:hover {
+button.delete__button img:hover {
   transform: rotateZ(0);
 }
 
