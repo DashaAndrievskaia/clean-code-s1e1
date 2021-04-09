@@ -36,13 +36,13 @@ body {
 .task__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task__label {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
   }
 
 .task-row__wrapper {
@@ -177,8 +177,8 @@ ul li input[type=text] {
 }
 
 .edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode label {
